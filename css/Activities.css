@@ -1,3 +1,4 @@
+
 /* navbar dan footer sama dengan index.css */
 
 
@@ -36,6 +37,8 @@ footer {
   bottom: 0;
 }
 
+
+
 /* responsive mobile */
 @media only screen and (max-width: 600px) {
   main {
@@ -44,6 +47,17 @@ footer {
   }
   .main-judul h1 {
     font-size: 18px;
+  }
+  .main-isi .main-isi-portofolio img {
+    width: 350px;
+  }
+  .main-isi-portofolio .fa-arrow-alt-circle-left {
+    left: 5%;
+    top: 50%;
+  }
+  .main-isi-portofolio .fa-arrow-alt-circle-right {
+    right: 5%;
+    top: 50%;
   }
 
   footer {
